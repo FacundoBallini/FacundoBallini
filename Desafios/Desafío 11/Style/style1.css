@@ -1,0 +1,45 @@
+.header--properties {
+  background-color: grey;
+  height: 50px;
+}
+
+.header__img--properties {
+  float: left;
+}
+
+.main__h2--center {
+  text-align: center;
+}
+
+.main__div--properties {
+  text-align: center;
+}
+
+.div--properties {
+  text-align: center;
+  /* color: hotpink; */
+}
+.div--properties .div__h2--center {
+  text-align: center;
+}
+
+.footer--properties {
+  background-color: slategrey;
+}
+
+.footer__img--floatLeft {
+  float: left;
+}
+
+.footer__div--properties {
+  text-align: center;
+  size: 4rem;
+  font-weight: 500;
+}
+
+.footer__article--properties {
+  text-align: right;
+  size: 100px;
+}
+
+/*# sourceMappingURL=style1.css.map */

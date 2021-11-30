@@ -1,0 +1,81 @@
+@charset "UTF-8";
+.header--properties {
+  background-color: grey;
+  height: 50px;
+}
+
+.header__img--properties {
+  float: left;
+}
+
+.main__h2--center {
+  text-align: center;
+}
+
+.main__div--properties {
+  text-align: center;
+}
+
+.div--properties {
+  text-align: center;
+  /* color: hotpink; */
+}
+.div--properties .div__h2--center {
+  text-align: center;
+}
+
+.footer--properties {
+  background-color: grey;
+}
+
+.footer__img--floatLeft {
+  float: left;
+}
+
+.footer__div--properties {
+  text-align: center;
+  size: 4rem;
+  font-weight: 500;
+}
+
+.footer__article--properties {
+  text-align: right;
+  size: 100px;
+}
+
+.oneForAllMockup-icon, .jokerAir-icon, .myHeroMockup-icon, .jokerFront-icon {
+  height: 800px;
+  border: 2px solid #333;
+}
+
+.oneForAllMockup-icon {
+  background-image: url("../Fakuma_Customs/Imágenes/oneForAllMockup.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jokerAir-icon {
+  background-image: url("../Fakuma_Customs/Imágenes/jokerAir.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.myHeroMockup-icon {
+  background-image: url("../Fakuma_Customs/Imágenes/myHeroMockup.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jokerFront-icon {
+  background-image: url("../Fakuma_Customs/Imágenes/jokerFront.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.jokerUp {
+  background-image: url("../Fakuma_Customs/Imágenes/jokerUp.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/*# sourceMappingURL=style1.css.map */

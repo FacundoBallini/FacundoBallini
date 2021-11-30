@@ -1,0 +1,88 @@
+
+$paleta:(
+    'color1': grey,
+    'color2': violet
+);
+
+$fakumaLogo: left;
+
+.header--properties{
+    background-color: map-get($map: $paleta, $key: 'color1');
+    height: 50px;
+}
+
+.header__img--properties{
+    float: $fakumaLogo;
+}
+
+.main__h2--center{
+    text-align: center;
+}
+
+.main__div--properties{
+    text-align: center;
+
+}
+
+.div--properties{
+    text-align: center;
+    /* color: hotpink; */
+    .div__h2--center{
+        text-align: center;
+    }
+}
+
+.footer--properties{
+    background-color: map-get($map: $paleta, $key: 'color1');
+}
+
+.footer__img--floatLeft{
+    float: $fakumaLogo;
+}
+
+.footer__div--properties{
+
+    text-align: center;
+    size: 4rem;
+    font-weight: 500;
+}
+
+.footer__article--properties{
+    text-align: right;
+    size: 100px;
+}
+
+.oneForAllMockup-icon, .jokerAir-icon, .myHeroMockup-icon, .jokerFront-icon{
+    height: 800px;
+    border: 2px solid #333;
+  }
+
+  @each $photo in oneForAllMockup , jokerAir , myHeroMockup , jokerFront {
+      .#{$photo}-icon{
+          
+          background-image: url("../Fakuma_Customs/Imágenes/#{$photo}.jpg");
+          background-size: cover;
+          background-position: center;
+      }
+  }
+
+
+  $img5: jokerUp;
+  $img6: jokerMockup;
+  $img7: jokerInsideBox;
+  $img8: jokerOutsideBox;
+  $img9: jokerFrontwithBox;
+  $photo1: $img5;
+
+  .jokerUp{
+      @if $photo1 == jokerUp{
+          background-image: url("../Fakuma_Customs/Imágenes/jokerUp.jpg");
+          background-position: center;
+          background-size: cover;
+      }
+  }
+
+
+
+
+

@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estructura HTML del proyecto</title>
+    <link rel="stylesheet" href="../Desafio 4/Estilo/style.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <section>
+            <img src="Imagenes/Logo IG.PNG" alt="Banner Principal con Logo" height="200" />
+        </section>
+        <h1>FAKUMA CUSTOMS</h1>
+        <br>
+        <nav>
+            <ul>
+                <li><a href="../Desafio 4/Secciones/personalizadas.html">Servicio Premium</a></li>
+                <li><a href="../Desafio 4/Secciones/colecciones.html">Zapatillas Basics</a></li>
+                <li><a href="../Desafio 4/Secciones/servicio.html">Servicio Custom</a></li>
+                <li><a href="../Desafio 4/Secciones/nosotros.html">Nosotros</a></li>
+                <li><a href="../Desafio 4/Secciones/contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <br>
+    <br>
+
+    <main>
+        <section>
+            <h2>Zapatillas Premium</h2>
+            <p class="p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure rem odio veritatis eos vitae qui, facere
+                illo architecto, aperiam, alias delectus voluptate commodi porro hic consequuntur eius perferendis?
+                Iusto, dolore!</p>
+        </section>
+
+        <section>
+            <h2>Zapatillas Basics</h2>
+            <p class="p" id="otroColor">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non officia eligendi earum sit assumenda
+                necessitatibus, porro maxime eum deleniti facilis voluptatum soluta ratione mollitia. Inventore neque
+                magni dicta distinctio dignissimos.</p>
+        </section>
+
+        <section>
+            <h2>Personaliza TUS zapatillas</h2>
+            <p class="p">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum ipsum ad minima totam placeat
+                voluptatem, corrupti voluptatum reiciendis in cum officia ea, magnam porro soluta sunt omnis, amet
+                necessitatibus optio!</p>
+        </section>
+
+        <br>
+        <br>
+
+        <section>
+            <table border="3">
+                <tr>
+                    <th>Servicio</th>
+                    <th>Información</th>
+                    <th>Recomendación</th>
+                </tr>
+                <tr class="premium">
+                    <td>Premium</td>
+                    <td>
+                        <ul class="premium" id="sneakerIcon">
+                            <li>Diseño personalizado según TÚ idea</li>
+                            <li>Modelo de Zapatilla de alta calidad</li>
+                            <li>Contacto semanal para verificar el proceso</li>
+                            <li>Caja de Madera personalizada según tu idea</li>
+                            <li>Regalo sorpresa de los creadores :P</li>
+                        </ul>
+                    </td>
+                    <td>Recomendamos este servicio si estas buscando destacar o tener algo único en tus pies. Es una
+                        experiencia ÚNICA, no para todos</td>
+                </tr>
+                <tr class="premium" id="basics">
+                    <td>Basics</td>
+                    <td>
+                        <ol type="I">
+                            <li>Diseño ya personalizado en ideas de los creadores</li>
+                            <li>Modelo de zapatilla de buena calidad</li>
+                            <li>Contacto para confirmar y coordinar el envio</li>
+                            <li>Cada standard customizada FAKUMA CUSTOMS</li>
+                        </ol>
+                    </td>
+                    <td>Recomendamos este servicio si estas buscando destacar pero estas corto de presupuesto, es una
+                        buena manera de tener algo original y no dejarte el sueldo en $0</td>
+                </tr>
+                <tr class="premium">
+                    <td>Personaliza TUS Zapatillas</td>
+                    <td>Traenos TUS zapas en buen estado y nosotros te la personalizamos BB</td>
+                    <td>Recomendamos este servicio si YA tenes unas zapas en buen estado que quieras darle un toque más
+                        personal tuyo, solo pagás el servicio</td>
+                </tr>
+            </table>
+        </section>
+    </main>
+
+    <br>
+    <br>
+
+    <footer>
+        <section>
+            <h2 class="contacto">Contactanos: </h2>
+            <form action="enviar.php" method="post" enctype="application/x-www-form-urlencoded">
+                <label for="name">Nombre Completo: </label>
+                <input type="text" name="name" placeholder="Colocar nombre completo"></input><br><br>
+                <label for="email">E-mail: </label>
+                <input type="email" name="email" required><br><br>
+                <label for="Asunto">Consulta por: </label>
+                <select name="Asunto">
+                    <option value="Premium">Premium</option>
+                    <option value="Basics">Basics</option>
+                    <option value="Custom">Custom</option>
+                </select><br><br>
+                <label for="Mensaje">Mensaje: </label>
+                <textarea name="mensaje" id="Mensaje" cols="30" rows="10"
+                    placeholder="Dejanos tu mensaje"></textarea><br><br>
+                <label>Queres recibir el Newsletter mensual?: </label>
+                <label for="Si">Si</label>
+                <input type="radio" name="opcion" value="Si" id="Si">
+                <label for="No">No</label>
+                <input type="radio" name="opcion" value="No" id="No"><br><br>
+
+                <input type="submit" value="Enviar"><br><br>
+                <input type="reset" value="Borrar Info">
+            </form>
+        </section>
+        <section id="Redes">
+            <h2>Redes Sociales</h2>
+        </section>
+        <a href="https://www.instagram.com/fakuma.customs/">
+            <img src="Imagenes/Logo IG Lit.png" alt="Imagen-IG" height="100">
+        </a>
+    </footer>
+</body>
+
+</html>
